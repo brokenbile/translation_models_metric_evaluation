@@ -20,8 +20,10 @@ This was a project completed for university as a group project which involved so
 * ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
 * METEOR (Metric for Evaluation of Translation with Explicit ORdering).
 
+The models used for evaluation include Helsinki-NLP/Opus, Facebook/NLLB, as well as a statistic-based translation
+
 Additionally, a fine-tuned model was developed using the T5-Small model to perform translations from French to English. This fine-tuned model was trained using data obtained from this Kaggle dataset
 
 https://www.kaggle.com/datasets/dhruvildave/en-fr-translation-dataset
 
-Metric evaluation was done using the same subset of the Kaggle dataset.
+Metric evaluation was done using a subset of the Kaggle dataset.
